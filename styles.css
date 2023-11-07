@@ -8,6 +8,14 @@
 }
 *{
     box-sizing: border-box;
+    color: var(--text-color);
+    font-family: var(--font);
+}
+:root{
+    --text-color: rgb(206, 197, 197);
+    --primary-background: black;
+    --secondary-background: rgb(131, 34, 66);
+    --font: monospace;
 }
 html{
     height: 100%;
@@ -16,6 +24,7 @@ body{
     margin: 0;
     min-height: 100%;
     display: flex;
+    background-color: var(--primary-background)
 }
 
 .bgimage{
@@ -34,16 +43,22 @@ body{
     display: flex;
     width: 100%;
     justify-content: center;
-    background-color: black;
-    opacity: 0.5;
-    color: white;
+    background: rgba(0, 0, 0, 0.5);
 }
 
 img + h1{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 15px;
+    margin-left: 30px;
+    color: white;
     font-family: 'Ethnocentric Rg',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+.service{
+    color: white;
+}
+
+label{
+    display: block;
+}

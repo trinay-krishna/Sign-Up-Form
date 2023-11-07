@@ -14,11 +14,70 @@
         </div>
     </div>
     <div class="service">
-        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-             Facilis deserunt sit, placeat, cumque assumenda iusto <br>
-             necessitatibus tenetur corporis impedit aperiam enim consectetur similique quasi <br>
-             ratione temporibus odit <br>
-             eveniet repellendus. Nam.</h2>
+        <div class="service-info">
+            <p>
+                This is not a real online service! You know you need something <br>
+                like this in your life to help you realize your deepest dreams. <br>
+                Sign up now to get started.
+            </p>
+            <p>
+                You know you want to.
+            </p>
+        </div>
+        <form action="#" method="post">
+            <div class="details-container">
+                <h2>Let's Do this!</h2>
+                <div class="details">
+                    <div class="firstname">
+                        <label for="first-name">FIRST NAME</label>
+                        <input
+                            type="text"
+                            name="user-first"
+                            id="first-name"
+                            minlength="1"
+                            maxlength="12">
+                    </div>
+                    <div class="lastname">
+                        <label for="last-name">LAST NAME</label>
+                        <input
+                            type="text"
+                            name="user-last"
+                            id="last-name"
+                            minlength="1"
+                            maxlength="12">
+                    </div>
+                </div>
+                <div class="contact">
+                    <div class="email">
+                        <label for="mail">EMAIL</label>
+                        <input type="email" name="user-mail" id="mail">
+                    </div>
+                    <div class="telephone">
+                        <label for="tel">PHONE NUMBER</label>
+                        <input
+                            type="tel"
+                            name="user-phone"
+                            id="tel"
+                            maxlength="10"
+                            minlength="10">
+                    </div>
+                </div>
+                <div class="pass">
+                    <div class="password">
+                        <label for="pass-word">PASSWORD</label>
+                        <input type="password" name="user-pass" id="pass-word" minlength="8">
+                    </div>
+                    <div class="confirmpass">
+                        <label for="confirm-password">CONFIRM PASSWORD</label>
+                        <input type="password" name="user-pass-confirm" id="confirm-password" minlength="8">
+                    </div>
+                </div>
+            </div>
+            <button type="submit">Create Account</button>
+            <p>
+                Already have an account? <a href="#">Log in</a>
+            </p>
+        </form>
     </div>
 </body>
 </html>
