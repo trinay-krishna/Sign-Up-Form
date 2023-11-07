@@ -28,31 +28,33 @@
             <div class="details-container">
                 <h2>Let's Do this!</h2>
                 <div class="details">
-                    <div class="firstname">
+                    <div class="field">
                         <label for="first-name">FIRST NAME</label>
                         <input
                             type="text"
                             name="user-first"
                             id="first-name"
                             minlength="1"
-                            maxlength="12">
+                            maxlength="12"
+                            required>
                     </div>
-                    <div class="lastname">
+                    <div class="field">
                         <label for="last-name">LAST NAME</label>
                         <input
                             type="text"
                             name="user-last"
                             id="last-name"
                             minlength="1"
-                            maxlength="12">
+                            maxlength="12"
+                            required>
                     </div>
                 </div>
-                <div class="contact">
-                    <div class="email">
+                <div class="details">
+                    <div class="field">
                         <label for="mail">EMAIL</label>
                         <input type="email" name="user-mail" id="mail">
                     </div>
-                    <div class="telephone">
+                    <div class="field">
                         <label for="tel">PHONE NUMBER</label>
                         <input
                             type="tel"
@@ -62,14 +64,14 @@
                             minlength="10">
                     </div>
                 </div>
-                <div class="pass">
-                    <div class="password">
+                <div class="details">
+                    <div class="field">
                         <label for="pass-word">PASSWORD</label>
-                        <input type="password" name="user-pass" id="pass-word" minlength="8">
+                        <input type="password" name="user-pass" id="pass-word" minlength="8" required>
                     </div>
-                    <div class="confirmpass">
+                    <div class="field">
                         <label for="confirm-password">CONFIRM PASSWORD</label>
-                        <input type="password" name="user-pass-confirm" id="confirm-password" minlength="8">
+                        <input type="password" name="user-pass-confirm" id="confirm-password" minlength="8" required>
                     </div>
                 </div>
             </div>
